@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/nwakego98/NFT-preview-card.git
-- Live Site URL: 
+- Live Site URL: https://tranquil-meringue-fc4d14.netlify.app/
 
 ## My process
 
