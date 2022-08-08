@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600;700&family=Outfit:wght@300;400;600;700&family=Poppins:wght@200;300;400;500;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+  height: 100%;
+} 
+
+img {
+    max-width:100%;
+    display: block;
+  }
+
+  body {
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100%;
+    display: grid;
+    place-content: center; 
+    font-family: 'Outfit' , san-serif;
+ }
+
+.container{
+    position: relative;
+    max-width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 1rem;
+    border: 10px hsl(216, 50%, 16%)  solid;
+    border-radius: 10px;
+    font-style: normal;
+}
+
+.card img{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card img .img-top {
+    width: 10px;
+}
+
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+        display: inline;
+     background-color: hsl(178, 100%, 50%) ;
+     opacity: 0.50;
+    }
+
+    .text-box:hover h1,
+    .author-link:hover  {
+        cursor: pointer;
+        color:hsl(178, 100%, 50%)  ;
+    }
+
+
+.text-box h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color:hsl(0, 0%, 100%) ;
+}
+
+.text-box p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color:hsl(215, 51%, 70%);
+}
+
+ul{
+    list-style: none;
+}
+
+.text-box ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:23px;
+}
+
+.text-box li{
+    font-weight: 400;
+}
+
+
+.ETH span{
+    color:hsl(178, 100%, 50%) ;
+    margin-left: 28px;
+}
+
+.clock span{
+    color:hsl(215, 51%, 70%) ;
+    margin-left: 18px;
+}
+
+.ETH img{
+    margin-left: 15px;
+    margin-bottom: -18px;
+}
+
+.clock img{
+    margin-bottom: -18px;
+}
+
+
+.author{
+    margin-top: 18px;
+    margin-right: 24px;
+    margin-left: 24px;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    display: flex;
+}
+
+.img-avt{
+    margin-top: 10px;
+    width: 36px;
+    margin-right: 16px;
+    align-self: stretch;
+}
+
+.avt{
+    width: 100%;
+}
+
+.information-author{
+    align-self: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.author-link{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}  
+
+
+@media(max-width:375px) {
+    .container{
+        margin-left: 24px;
+        margin-top: 60px;
+        width: 327px;
+        height: 544px;
+    }
+
+    .text-box{
+        height: 100%;
+    }
+}
